@@ -7,7 +7,7 @@ Turkish.php
 
 ## Using
     
-  require 'apps/Turkish.php';
+  require 'Turkish.php';
   
   $tr = new Turkish; 
   
