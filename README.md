@@ -7,31 +7,31 @@ Turkish.php
 
 ## Using
     
-  require 'Turkish.php';
-  
-  $tr = new Turkish; 
-  
-  echo $tr->makeGenitive("Öykü", array ( "proper_noun" => true ) ), PHP_EOL;
-  echo $tr->makeDative("Fatma", array ( "proper_noun" => true ) ), PHP_EOL;
-  
-  echo $tr->makeDative("Yasin", array ( "proper_noun" => true ) ), PHP_EOL;
-  echo $tr->makeDative("ALİ", array ( "proper_noun" => true ) ), PHP_EOL;
-  echo $tr->makeAblative("Ali", array ( "proper_noun" => true ) ), PHP_EOL;
-  echo $tr->makeAccusative("Kaliningrad", array ( "proper_noun" => true ) ), PHP_EOL;
-  
-  echo $tr->makeGenitive("ağaç", array ( "proper_noun" => false ) ), PHP_EOL;
-  echo $tr->makeAccusative("erik", array ( "proper_noun" => false ) ), PHP_EOL;
-  echo $tr->makeAccusative("Erik", array ( "proper_noun" => true ) ), PHP_EOL;
-  
-  echo $tr->possessiveAffix("kavanoz", array ( "person" => "1", "quantity" => "singular" ) ), PHP_EOL;
-  echo $tr->possessiveAffix("kavanoz", array (  "person" => "2", "quantity" => "singular") ), PHP_EOL;
-  echo $tr->possessiveAffix("kavanoz", array (  "person" => "3", "quantity" => "singular") ), PHP_EOL;
-  
-  echo $tr->possessiveAffix("halter", array (  "person" => "1", "quantity" => "plural") ), PHP_EOL;
-  echo $tr->possessiveAffix("halter", array (  "person" => "2", "quantity" => "plural") ), PHP_EOL;
-  echo $tr->possessiveAffix("halter", array (  "person" => "3", "quantity" => "plural") ), PHP_EOL;
-  
-  echo $tr->possessiveAffix("Kenya", array (  "person" => "3", "quantity" => "plural") ), PHP_EOL;
+		require 'Turkish.php';
+
+		$tr = new Turkish; 
+
+		echo $tr->makeGenitive("Öykü", array ( "proper_noun" => true ) ), PHP_EOL;
+		echo $tr->makeDative("Fatma", array ( "proper_noun" => true ) ), PHP_EOL;
+
+		echo $tr->makeDative("Yasin", array ( "proper_noun" => true ) ), PHP_EOL;
+		echo $tr->makeDative("ALİ", array ( "proper_noun" => true ) ), PHP_EOL;
+		echo $tr->makeAblative("Ali", array ( "proper_noun" => true ) ), PHP_EOL;
+		echo $tr->makeAccusative("Kaliningrad", array ( "proper_noun" => true ) ), PHP_EOL;
+
+		echo $tr->makeGenitive("ağaç", array ( "proper_noun" => false ) ), PHP_EOL;
+		echo $tr->makeAccusative("erik", array ( "proper_noun" => false ) ), PHP_EOL;
+		echo $tr->makeAccusative("Erik", array ( "proper_noun" => true ) ), PHP_EOL;
+
+		echo $tr->possessiveAffix("kavanoz", array ( "person" => "1", "quantity" => "singular" ) ), PHP_EOL;
+		echo $tr->possessiveAffix("kavanoz", array (  "person" => "2", "quantity" => "singular") ), PHP_EOL;
+		echo $tr->possessiveAffix("kavanoz", array (  "person" => "3", "quantity" => "singular") ), PHP_EOL;
+
+		echo $tr->possessiveAffix("halter", array (  "person" => "1", "quantity" => "plural") ), PHP_EOL;
+		echo $tr->possessiveAffix("halter", array (  "person" => "2", "quantity" => "plural") ), PHP_EOL;
+		echo $tr->possessiveAffix("halter", array (  "person" => "3", "quantity" => "plural") ), PHP_EOL;
+
+		echo $tr->possessiveAffix("Kenya", array (  "person" => "3", "quantity" => "plural") ), PHP_EOL;
 
         
 # Output
