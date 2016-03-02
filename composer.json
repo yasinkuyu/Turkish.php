@@ -1,0 +1,21 @@
+{
+    "name": "turkish",
+    "type": "library",
+    "description": "Turkish Suffix Library for PHP - Türkçe Çekim ve Yapım Ekleri",
+    "keywords": [
+        "turkish",
+        "türkçe",
+        "yapım ekleri",
+        "çekim ekleri",
+        "suffix",
+        "turkish suffix"
+    ],
+    "homepage": "https://github.com/yasinkuyu/Turkish.php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yasin Kuyu",
+            "email": "yasinkuyu@gmail.com"
+        }
+    ]
+}
