@@ -4,6 +4,7 @@ Turkish.php
 ### Turkish Suffix Library for PHP
 
 ## Install 
+	composer require yasinkuyu/turkish
 
 ## Using
     
