@@ -3,13 +3,16 @@ Turkish.php
 
 ### Turkish Suffix Library for PHP
 
-## Install 
+## Composer Install 
 	composer require yasinkuyu/turkish
+	
+	require_once __DIR__ . '/vendor/autoload.php';
+    		
+## Manual installation
+	require 'Turkish.php';
 
 ## Using
     
-		require 'Turkish.php';
-
 		$tr = new Turkish; 
 
 		echo $tr->makeGenitive("Öykü", array ( "proper_noun" => true ) ), PHP_EOL;
