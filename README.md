@@ -23,6 +23,8 @@ Turkish.php
 		echo $tr->makeAblative("Ali", array ( "proper_noun" => true ) ), PHP_EOL;
 		echo $tr->makeAccusative("Kaliningrad", array ( "proper_noun" => true ) ), PHP_EOL;
 
+		echo $tr->makeDerivative("güneş", array ( "proper_noun" => false ) ), PHP_EOL;
+
 		echo $tr->makeGenitive("ağaç", array ( "proper_noun" => false ) ), PHP_EOL;
 		echo $tr->makeAccusative("erik", array ( "proper_noun" => false ) ), PHP_EOL;
 		echo $tr->makeAccusative("Erik", array ( "proper_noun" => true ) ), PHP_EOL;
@@ -46,6 +48,7 @@ Turkish.php
     ALİ'YE 
     Ali'den 
     Kaliningrad'ı
+    güneşli
     ağacın
     eriği
     Erik'i
