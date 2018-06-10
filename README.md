@@ -2,7 +2,7 @@ Turkish.php
 ==========
 
 ### Turkish Suffix Library for PHP
-
+[@yasinkuyu](https://twitter.com/yasinkuyu)
 ## Composer Install 
 	composer require yasinkuyu/turkish
 	
