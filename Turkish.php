@@ -1,6 +1,7 @@
 <?php
 
 class Turkish
+
 {
     /*
      * Yasin Kuyu
@@ -473,12 +474,7 @@ class Turkish
 
     public function contains($string, $substring)
     {
-        $pos = strpos($string, $substring);
-
-        if ($pos === false) {
-            return false;
-        } else {
-            return true;
-        }
+        return strpos($string, $substring) !== false;
     }
+
 }
